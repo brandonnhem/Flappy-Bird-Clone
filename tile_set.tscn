@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://md21ccbox3e1"]
+
+[ext_resource type="Texture2D" uid="uid://dkiwcr88py2vc" path="res://sprites/pipe-green.png" id="1_71hri"]
+
+[node name="TileSet" type="Node2D"]
+
+[node name="TopPipe" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+rotation = 3.14159
+texture = ExtResource("1_71hri")
+
+[node name="BottomPipe" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_71hri")

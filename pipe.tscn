@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3icyrv05nhex"]
+
+[ext_resource type="Texture2D" uid="uid://dkiwcr88py2vc" path="res://sprites/pipe-green.png" id="1_5y7md"]
+
+[node name="Pipe" type="Node2D"]
+
+[node name="TopPipe" type="Sprite2D" parent="."]
+rotation = 3.14159
+texture = ExtResource("1_5y7md")
+
+[node name="BottomPipe" type="Sprite2D" parent="."]
+texture = ExtResource("1_5y7md")
